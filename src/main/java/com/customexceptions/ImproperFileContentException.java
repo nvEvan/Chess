@@ -7,13 +7,13 @@ package com.customexceptions;
 public class ImproperFileContentException extends Exception{
 	
 	/**
-	 * No Arguments constructor
+	 * The no-arguments constructor.
 	 */
 	public ImproperFileContentException() {}; 
 	
 	/**
-	 * Constructor that accepts a related message
-	 * @param msg String containing message to store
+	 * A constructor that accepts a related message.
+	 * @param msg The message to store in the exception object
 	 */
 	public ImproperFileContentException(String msg) {
 		super(msg);
