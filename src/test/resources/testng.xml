@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "UnitTests">
+   <test name = "BoardManagerTests">
+      <classes>
+         <class name = "com.gamemanager.TestGameManager"/>
+      </classes>
+   </test>
+</suite>
