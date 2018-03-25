@@ -26,9 +26,8 @@ public class GameManager {
 	 */
 	private static String DEFAULT_BOARD_FILE = "defaultboard.txt";
 	
-	
-	//Note: The seemingly out-of-place '<!-- -->' in the below comment is used by javadoc to print both sentences 
-	//      rather than just the first sentence of the comment. 
+	//Note: The seemingly out-of-place '<!-- -->' after the period in the below comment is used by javadoc to print 
+	//      both sentences rather than just the first sentence of the comment. 
 	/**
 	 * Stores the current state of the board using a 1D character array to facilitate deep copies of the array.<!-- -->
 	 * Use a character array rather than a string array to better enforce input file constraints.
