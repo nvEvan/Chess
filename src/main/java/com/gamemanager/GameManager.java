@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.customexceptions.ImproperFileContentException;
 
-public class gamemanger {
+public class GameManager {
 	private static int ROW_SIZE = 8;
 	private static int COL_SIZE = 8;
 	private static String DEFAULT_BOARD_FILE = "defaultboard.txt";
@@ -24,7 +24,7 @@ public class gamemanger {
 	 * @throws ImproperFileContentException When the input file is in improper format. 
 	 * @throws IOException When the input file could not be opened
 	 */
-	public gamemanger() throws ImproperFileContentException, IOException{
+	public GameManager() throws ImproperFileContentException, IOException{
 		this.board = readAndParseAndCheckFile(DEFAULT_BOARD_FILE);
 	}
 	
@@ -34,7 +34,7 @@ public class gamemanger {
 	 * @throws ImproperFileContentException When the input file is in improper format
 	 * @throws IOException When the input file could not be opened
 	 */
-	public gamemanger(String filename) throws ImproperFileContentException, IOException {
+	public GameManager(String filename) throws ImproperFileContentException, IOException {
 		this.board = readAndParseAndCheckFile(filename);
 	}
 	
