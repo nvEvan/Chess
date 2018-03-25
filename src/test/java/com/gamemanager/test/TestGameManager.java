@@ -25,11 +25,17 @@ public class TestGameManager {
 	}
 	
 	//Set dependancy for this test to the testGetBoard() test
+	/**
+	 * Unit Test for the no-arguments constructor
+	 */
 	@Test
 	public void testNoArgsConstructor() {
 		fail("Not yet implemented");
 	}
 	
+	/**
+	 * Unit Test for the constructor taking a filename
+	 */
 	@Test
 	public void testFilenameConstructor() {
 		fail("Not yet implemented");
